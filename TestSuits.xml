@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" >
+    <parameter name="author" value="Guru99" />
+    <parameter name="searchKey" value="India" />
+    <test name="FinalProject">
+        <parameter name="searchKey" value="UK" />
+        <classes>
+            <class name="Tests.Hover">
+            </class>
+            <class name="Tests.Registration">
+            </class>
+            <class name="Tests.ForgetPassword">
+            </class>
+            <class name="Tests.Login">
+            </class>
+            <class name="Tests.Search">
+            </class>
+            <class name="Tests.AddToCart">
+            </class>
+            <class name="Tests.SendToFriend">
+            </class>
+            <class name="Tests.CheckOut">
+            </class>
+        </classes>
+    </test>
+</suite>
